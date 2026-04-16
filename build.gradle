@@ -31,11 +31,11 @@ dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    modImplementation "net.fabricmc.fabric-api:fabric-(modImplementation('${project.orbitment:starript:${project.starscript_ritone:${project.baritoneCompat
-    modCompileOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
-
-    // Other
-    include(implementation('com.github.LlamaLad7:MixinExtras:${project.mixinextras_version}'))
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    modImplementordevelopment:orbit:${project.orbit_version}"
+    modImplementation "meteordevelopment:starscript:${project.}"
+    modImplementation "meteordevelopment:baritone:${project.baritone_version}"
+    modCompileOnly "com.terraformersmc:modmenu(implementation('com.github.LlamaLad7:MixinExtras:${project.mixinextras_version}'))
     annotationProcessor 'com.github.LlamaLad7:MixinExtras:${project.mixinextras_version}'
 }
 
